@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Maria's professional portfolio — Artificial Intelligence, Python and Web Development learner.">
+  <meta name="author" content="Maria Bajwa">
+  <title>Maria Bajwa | Student Developer Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="progress-bar" id="progressBar"></div>
+
+  <header class="header" id="header">
+    <nav class="nav container">
+      <a class="logo" href="#home">Maria Bajwa<span>.</span></a>
+
+      <button class="menu-toggle" id="menuToggle" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+
+      <div class="nav-links" id="navLinks">
+        <a class="active" href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </div>
+
+      <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">☾</button>
+    </nav>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero section" id="home">
+      <div class="hero-bg"></div>
+      <div class="container hero-grid">
+        <div class="hero-text reveal">
+          <p class="eyebrow">WELCOME TO MY PORTFOLIO</p>
+          <h1>Hi, I'm <span>Maria Bajwa</span> 👋</h1>
+          <h2>I’m a <span id="typing"></span><span class="cursor">|</span></h2>
+          <p class="hero-description">
+            A Artificial Intelligence student passionate about technology, creative problem-solving,
+            and building useful digital experiences.
+          </p>
+
+          <div class="hero-buttons">
+            <a class="btn btn-primary" href="#projects">Explore My Work <span>↗</span></a>
+            <a class="btn btn-primary" href="Maria-CV.pdf" download>Download CV <span>↓</span></a>
+            <a class="btn btn-outline" href="#contact">Let's Connect</a>
+          </div>
+
+          <div class="quick-links">
+            <a href="mailto:mariabajwaoficial3@gmail.com">✉ Email</a>
+            <a href="https://github.com/MariaBajwacodes" target="_blank" rel="noopener">GitHub ↗</a>
+            <a href="https://www.linkedin.com/in/Maria Bajwa/" target="_blank" rel="noopener">LinkedIn ↗</a>
+          </div>
+        </div>
+
+        <div class="hero-photo-wrap reveal">
+          <div class="orbit orbit-one"></div>
+          <div class="orbit orbit-two"></div>
+          <div class="photo-card">
+            <img src="assets/maria-profile.jpg" alt="Maria's profile photo">
+            <div class="photo-badge">
+              <span class="status-dot"></span>
+              Currently learning & building
+            </div>
+          </div>
+          <div class="floating-card card-python">🐍 Python</div>
+          <div class="floating-card card-ai">🤖 AI Learner</div>
+        </div>
+      </div>
+
+      <a href="#about" class="scroll-down">Scroll to explore ↓</a>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="about section" id="about">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">ABOUT ME</p>
+          <h2>A little about <span>Maria Bajwa</span></h2>
+          <p>Learning today. Building tomorrow.</p>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-copy reveal">
+            <p>
+              Hello! I'm Maria Bajwa, a Artificial Intelligence student who enjoys learning how technology
+              works and turning ideas into practical projects.
+            </p>
+            <p>
+              I'm currently developing my skills in Python, C++, Web Development, Artificial
+              Intelligence and databases. I believe that small consistent steps can create big results.
+            </p>
+            <p>
+              My goal is to grow into a skilled technology professional while building projects
+              that are useful, creative and meaningful.
+            </p>
+          </div>
+
+          <div class="info-cards reveal">
+            <article class="info-card">
+              <div class="info-icon">🎓</div>
+              <h3>Education</h3>
+              <p>BS-level Artificial Intelligence / technology studies</p>
+            </article>
+            <article class="info-card">
+              <div class="info-icon">💡</div>
+              <h3>Learning</h3>
+              <p>Python, C++, Web Development, AI & DBMS</p>
+            </article>
+            <article class="info-card">
+              <div class="info-icon">🎯</div>
+              <h3>Goal</h3>
+              <p>Become a skilled and confident technology professional</p>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section class="skills section" id="skills">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">MY SKILLS</p>
+          <h2>What I'm <span>learning</span></h2>
+          <p>Skills I'm continuously practicing and improving.</p>
+        </div>
+
+        <div class="skills-grid">
+          <article class="skill-card reveal">
+            <div class="skill-top"><span class="skill-icon">🐍</span><span>01</span></div>
+            <h3>Python</h3><p>Programming fundamentals, files, data handling and projects.</p>
+            <div class="skill-line"><i style="width:65%"></i></div>
+          </article>
+
+          <article class="skill-card reveal">
+            <div class="skill-top"><span class="skill-icon">C++</span><span>02</span></div>
+            <h3>C++</h3><p>Programming fundamentals and object-oriented concepts.</p>
+            <div class="skill-line"><i style="width:55%"></i></div>
+          </article>
+
+          <article class="skill-card reveal">
+            <div class="skill-top"><span class="skill-icon">🌐</span><span>03</span></div>
+            <h3>HTML & CSS</h3><p>Responsive layouts, styling, animations and portfolio design.</p>
+            <div class="skill-line"><i style="width:70%"></i></div>
+          </article>
+
+          <article class="skill-card reveal">
+            <div class="skill-top"><span class="skill-icon">🤖</span><span>04</span></div>
+            <h3>Artificial Intelligence</h3><p>Learning AI concepts, applications and emerging technologies.</p>
+            <div class="skill-line"><i style="width:45%"></i></div>
+          </article>
+
+          <article class="skill-card reveal">
+            <div class="skill-top"><span class="skill-icon">🗄️</span><span>05</span></div>
+            <h3>DBMS</h3><p>Database concepts, SQL fundamentals and data organization.</p>
+            <div class="skill-line"><i style="width:50%"></i></div>
+          </article>
+
+          <article class="skill-card reveal">
+            <div class="skill-top"><span class="skill-icon">🧠</span><span>06</span></div>
+            <h3>Problem Solving</h3><p>Breaking problems into smaller steps and building solutions.</p>
+            <div class="skill-line"><i style="width:60%"></i></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section class="projects section" id="projects">
+      <div class="container">
+        <div class="section-heading split-heading reveal">
+          <div>
+            <p class="eyebrow">MY PROJECTS</p>
+            <h2>Things I've <span>built</span></h2>
+          </div>
+          <p>A selection of projects and learning work.</p>
+        </div>
+
+        <div class="projects-grid">
+          <article class="project-card featured reveal">
+            <div class="project-number">01</div>
+            <div class="project-icon">💰</div>
+            <p class="project-tag">PYTHON • DATA</p>
+            <h3>Finance Manager</h3>
+            <p>A Python application for recording daily expenses, organizing categories and analyzing spending.</p>
+            <div class="project-tech"><span>Python</span><span>JSON</span><span>File Handling</span></div>
+            <a href="#contact" class="project-link">Discuss project ↗</a>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-number">02</div>
+            <div class="project-icon">🤖</div>
+            <p class="project-tag">AI • RESEARCH</p>
+            <h3>AI in Healthcare</h3>
+            <p>A presentation/research project exploring AI applications in healthcare and medicine.</p>
+            <div class="project-tech"><span>AI</span><span>Research</span></div>
+            <a href="#contact" class="project-link">Discuss project ↗</a>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-number">03</div>
+            <div class="project-icon">🌐</div>
+            <p class="project-tag">WEB • PORTFOLIO</p>
+            <h3>Maria's Portfolio</h3>
+            <p>This responsive personal website, created to present my skills, projects and learning journey.</p>
+            <div class="project-tech"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+            <a href="#home" class="project-link">View website ↗</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- JOURNEY -->
+    <section class="journey section">
+      <div class="container journey-grid">
+        <div class="section-heading reveal">
+          <p class="eyebrow">MY JOURNEY</p>
+          <h2>Learning one step <span>at a time</span></h2>
+          <p>My portfolio will grow as I learn, practice and build.</p>
+        </div>
+
+        <div class="timeline reveal">
+          <div class="timeline-item">
+            <span>01</span><div><h3>Learn</h3><p>Understand programming and technology fundamentals.</p></div>
+          </div>
+          <div class="timeline-item">
+            <span>02</span><div><h3>Practice</h3><p>Turn concepts into small practical exercises.</p></div>
+          </div>
+          <div class="timeline-item">
+            <span>03</span><div><h3>Build</h3><p>Create useful projects and improve through experience.</p></div>
+          </div>
+          <div class="timeline-item">
+            <span>04</span><div><h3>Grow</h3><p>Keep learning and become a stronger developer.</p></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="contact section" id="contact">
+      <div class="container">
+        <div class="contact-box reveal">
+          <div class="contact-copy">
+            <p class="eyebrow">GET IN TOUCH</p>
+            <h2>Let's create something <span>useful.</span></h2>
+            <p>If you'd like to connect, discuss a project, or simply say hello, send me a message.</p>
+
+            <div class="contact-details">
+              <a href="mailto:mariabajwaoficial3@gmail.com">✉ <span>mariabajwaoficial3@gmail.com</span></a>
+              <a href="https://www.linkedin.com/in/Maria Bajwa/" target="_blank" rel="noopener">in <span>LinkedIn</span></a>
+              <a href="https://github.com/MariaBajwacodes" target="_blank" rel="noopener">⌘ <span>GitHub</span></a>
+            </div>
+          </div>
+
+          <form id="contactForm" class="contact-form">
+            <label>Your Name<input type="text" id="name" required placeholder="Enter your name"></label>
+            <label>Your Email<input type="email" id="email" required placeholder="Enter your email"></label>
+            <label>Message<textarea id="message" rows="5" required placeholder="Write your message..."></textarea></label>
+            <button class="btn btn-primary full" type="submit">Send via Email ↗</button>
+            <small>The button opens your email app with the message prepared.</small>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div><a class="logo" href="#home">Maria Bajwa<span>.</span></a><p>Dream • Learn • Build</p></div>
+      <div class="footer-socials">
+        <a href="https://www.instagram.com/mariabajwaofficial006/" target="_blank" rel="noopener">Instagram</a>
+        <a href="https://www.linkedin.com/in/Maria Bajwa/" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="https://github.com/MariaBajwacodes" target="_blank" rel="noopener">GitHub</a>
+      </div>
+      <p>© <span id="year"></span> Maria Bajwa. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <button id="topBtn" class="top-btn" aria-label="Back to top">↑</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
